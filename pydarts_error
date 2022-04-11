@@ -1,0 +1,26 @@
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>set pydartspath=C:\Users\jirka\Documents\pydarts\pydartssource
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>set pydartsscript=C:\Users\jirka\Documents\pydarts\pydartssource\pydarts.py
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>C:\Users\jirka\AppData\Local\Programs\Python\Python39-32\Scripts\pyinstaller.exe
+ pyi\pyinstaller.py     --paths="C:\Users\jirka\Documents\pydarts\pydartssource"        --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\locales;locales"     --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\sounds;sounds"       --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\images;images"       --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\fonts;fonts"         --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\licence;licence"     --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\arduino;arduino"     --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\desktop;desktop"     --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\CREDITS;."  --add-data="C:\Users\jirka\Documents\pydarts\pydartssource\README;."     --hidden-import="games.Ho_One"
+Název souboru či adresáře nebo jmenovka svazku je nesprávná.
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>--hidden-import="games.Sample_game"
+'--hidden-import' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>--hidden-import="games.Kinito"         --hidden-import="games.Killer"         -- hidden-import="games.Kapital"         --hidden-import="games.Shanghai"  -y
+'--hidden-import' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>C:\Users\jirka\Documents\pydarts\pydartssource\pydarts.py
+[FATAL] Unable to load internal first level dependancies or to create basic instances. Your download seems corrupted. Please download pydarts again.
+[FATAL] Error was No module named 'serial'
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>C:\Users\jirka\Documents\pydarts\pydartssource\pydarts.py
+[FATAL] Unable to load internal first level dependancies or to create basic instances. Your download seems corrupted. Please download pydarts again.
+[FATAL] Error was No module named 'serial'
+
+C:\Users\jirka\Documents\pydarts\pydartssource\scripts>pause
+Press any key to continue . . .
